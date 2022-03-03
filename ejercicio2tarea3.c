@@ -1,7 +1,7 @@
 #include <stdio.h>
 int validaNumero(int numero);
 int main(){
-    int numeroAValidar, validacion = 0;
+    int numeroAValidar=1, validacion = 0;
     while (numeroAValidar != 0)
     {
         printf("Escribe el numero que quieres saber si es perfecto\n");
