@@ -14,7 +14,7 @@ int main(){
 
 int validaNumero(int numero){
     int sumaDeDivisores = 0, validacion = 0, i;
-    for (i = 0; i < numero ; ++i)
+    for (i = 1; i < numero ; ++i)
     {
         if (numero % i == 0)
             sumaDeDivisores = sumaDeDivisores + i;
